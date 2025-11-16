@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "semistandard *.js",
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/daveobrien75/temperature-converter/issues"
   },
-  "homepage": "https://github.com/daveobrien75/temperature-converter#readme"
+  "homepage": "https://github.com/daveobrien75/temperature-converter#readme",
+  "devDependencies": {
+    "semistandard": "17.0.0"
+  }
 }
