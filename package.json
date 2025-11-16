@@ -1,5 +1,5 @@
 {
-  "name": "temperature-converter",
+  "name": "@daveobrien75/temperature-converter",
   "version": "1.0.0",
   "description": "Converts temperatures between Fahrenheit and Celsius.",
   "main": "index.js",
